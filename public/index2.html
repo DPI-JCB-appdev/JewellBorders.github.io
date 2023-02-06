@@ -8,8 +8,10 @@
 
   <style>
     body{
-      font-family: Arial;
+      font-family: 'Space Mono', monospace;
       font-size: 16px;
+      min-height: 100%;
+      padding: 0;
       margin: 0;
       background: #fff;
       color: #fff;
@@ -21,6 +23,8 @@
       overflow-y: auto;
       overflow-x: hidden;
       perspective: 10px;
+      padding: 0;
+      margin: 0;
     }
 
     .header {
@@ -33,12 +37,13 @@
     }
 
     .background {
-      transform: translateZ(-10px) scale(2);
+      transform: translateZ(-10px) scale(1);
     }
 
     .foreground {
-      transform: translateZ(-5px) scale(1.5);
+      transform: translateZ(-5px) scale(.5);
     }
+
 
     .background,
     .foreground {
@@ -48,27 +53,28 @@
       object-fit: cover;
       z-index: -1;
     }
-
   </style>
     
 </head>
 
 <body>
-  <div class="">
+  <div>
     <div class="wrapper">
       <header>
         <img src="Cityback.jpg" class="background">
         <img src="Aif.png" class="foreground">
         <h1> Welcome</h1>
       </header>
+
       <section> 
-        <div>
+        <div >
           <div class ="banner">
             <img src="me.jpg" alt ="An accurate depicition of me">
           </div>
 
           <div class="name">
-            Juul B
+            <h1>Hey, my sobriquet is Juul-B </h1>
+            <p> This is here is a helpful page linking to Ai tools</p>
           </div>
 
           <div class="My social-icons">
@@ -76,24 +82,52 @@
           </div>
 
           <div class ="source">
-            <h4> Photos available on <a href="https://unsplash.com/s/photos/ai" target="_blank"> Unsplash</a> </h4>
+            <h4> Background available on <a href="https://unsplash.com/s/photos/ai" target="_blank"> Unsplash</a> </h4>
           </div>
 
           <div class="My social-icons">
             <a href="https://github.com/DPI-JCB-appdev/JewellBorders.github.io" target="_blank"> Github</a>
           </div>
 
-          <div class ="synthesia">
+          <div>
+            <img src="ChatGPT.jpeg" alt="Ai Tool Designed to Assist you in a Wide Range of Tasks - ChatGPT">
+            <p><a href="https://openai.com/blog/chatgpt/"> ChatGPT </a> - Solves and writes almost anything for you</p> 
+          </div>
+
+          <div>
+            <img src="repurposeai.jpeg" alt=" Create once, publish everywhere- Repurpose">
+            <p><a href="https://repurpose.io/"> Repurpose </a> - Repurpose and distribute platform for video/audio creator</p> 
+          </div>
+
+          <div>
             <img src="synthesiaai.png" alt="Ai Video Creation Platform - Synthesia">
             <p><a href="https://www.synthesia.io//"> Synthesia </a> - The AI Content Platform </p> 
           </div>
 
           <div>
-            <img src="jasperai.png" alt="Ai Content Generator- JasperAi">
-            <p><a href="https://www.jasper.ai/"> Jasper </a> - The AI Content Platform </p>
+            <img src="Murfai.png" alt="Versatile AI voice generator - MurfAi">
+            <p><a href="https://www.synthesia.io//"> Murf </a> - Ai Voiceover Tools </p> 
+          </div>
+            
+          <div>
+            <img src="Jenniai2.jpeg" alt="Writing Ai Assistant- JenniAi">
+            <p><a href="https://www.Jenni.ai/"> Jenni </a> - AI Writing Assistant </p>
           </div>
 
-        </div>
+          <div>
+            <img src="firefliesai2.jpeg" alt="Automates Meeting Notes- FirefliesAi">
+            <p><a href="https://fireflies.ai/"> FireFlies </a> - Transcription tool designed to automate workflow </p>
+          </div>
+
+          <div>
+            <img src="splitterai.jpeg" alt="Writes Anything- SplitterAi">
+            <p><a href="https://www.jasper.ai/"> Splitter </a> - The AI Content Platform </p>
+          </div>
+
+          <div>
+            <img src="jasperai.png" alt="Writes Anything- JasperAi">
+            <p><a href="https://www.jasper.ai/"> Jasper </a> - The AI Content Platform </p>
+          </div>
       </section>      
     </div>    
   </div>  
